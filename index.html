@@ -17,9 +17,9 @@
   <body>
     <div class="container">
       <div class="jumbotron items-align-center">
-        <h2 center>Ping Pong</h2>
+        <h2 style="font-family:'OCR A Std', monospace;text-align: center;font-size:55px;">Ping Pong</h2>
       </div>
-      <aside class="aside">
+      <aside>
         <div class="row">
         <div class=" col-md-4">
           <div class="desc">
@@ -29,7 +29,7 @@
             </div>
             <h4 id="created">Git Account:</h4>
             <div class="well">
-              <h4>Edgar Kibet</h4>
+              <h4><a href="https://github.com/detectiveyego/pingpong.git">Git Repository</a></h4>
             </div>
             <h4 id="created">Game Version</h4>
             <div class="well">
@@ -37,32 +37,28 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-8">
           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Rules</button>
-
- <!-- Modal -->
- <div class="modal fade" id="myModal" role="dialog">
-   <div class="modal-dialog modal-sm">
-     <div class="modal-content">
-       <div class="modal-header">
-         <button type="button" class="close" data-dismiss="modal">&times;</button>
-         <h4 class="modal-title">Description</h4>
-       </div>
-       <div class="modal-body">
-         <p><strong>Ping Pong will count up to your number from 1 with the following exceptions:</strong></p>
-         <ol class="ihide">
-           <li>Numbers divisible by 3 become 'ping'</li>
-           <li>Numbers divisible by 5 become 'pong'</li>
-           <li>Numbers divisible by 3 and 5 come 'pingpong'</li>
-         </ol>
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-       </div>
-     </div>
-   </div>
- </div>
+           <div class="modal fade" id="myModal" role="dialog">
+             <div class="modal-dialog modal-sm">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body">
+                   <p><strong>Ping Pong will count up to your number from 1 with the following exceptions:</strong></p>
+                   <ol class="ihide">
+                     <li>Numbers divisible by 3 become 'ping'</li>
+                     <li>Numbers divisible by 5 become 'pong'</li>
+                     <li>Numbers divisible by 3 and 5 come 'pingpong'</li>
+                   </ol>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+             </div>
+           </div>
           <div class="jumbotron" id="form1">
             <form id="usr_input" class="form-group" action="index.html" method="get">
               <input type="number" class="form-control form-style align-items-center" id="userIn" required placeholder="Enter A Number">
@@ -70,7 +66,6 @@
             </form>
             <div class="output">
               <ul id="sys_output">
-
               </ul>
             </div>
           </div>

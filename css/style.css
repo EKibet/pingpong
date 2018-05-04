@@ -22,4 +22,10 @@ body{
   font-size: 21px;
   margin-left: 40%;
   width: 36%;
+  letter-spacing:
+}
+.hide {
+  font-size: 19px;
+  font-weight: 300px;
+  font-family: 'OCR A Std', monospace;
 }
