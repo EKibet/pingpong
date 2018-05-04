@@ -15,4 +15,11 @@ body{
 }
 .well{
   margin-bottom: 14px;
+
+}
+.btn-primary{
+  font-family: 'Comic Sans MS',cursive;
+  font-size: 21px;
+  margin-left: 40%;
+  width: 36%;
 }
