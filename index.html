@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+
+    </script>
   </head>
   <body>
     <div class="container">
@@ -15,15 +21,40 @@
         <div class=" col-md-4">
           <div class="desc">
             <h4 id="created">Created By:</h4>
-            <li></li>
+            <div class="well">
+              <h4>Edgar Kibet</h4>
+            </div>
+            <h4 id="created">Git Account:</h4>
+            <div class="well">
+              <h4>Edgar Kibet</h4>
+            </div>
+            <h4 id="created">Game Version</h4>
+            <div class="well">
+              <h4>Version 1</h4>
+            </div>
           </div>
         </div>
+
         <div class="col-md-8">
-          <div class="jumbotron">
-            <form class="usr_input form-group" action="index.html" method="post">
-              <input type="text" class="form-control align-items-center" id="autosizing" required placeholder="Enter A Text" name="" value="">
-              <input type="submit" id="sys_output" name="submit" class="btn btn-primary" value="Submit">
+
+          <div class="iHide">
+            <p><strong>Ping Pong will count up to your number from 1 with the following exceptions:</strong></p>
+            <ol class="ihide">
+              <li>Numbers divisible by 3 become 'ping'</li>
+              <li>Numbers divisible by 5 become 'pong'</li>
+              <li>Numbers divisible by 3 and 5 come 'pingpong'</li>
+            </ol>
+          </div>
+          <div class="jumbotron" id="form1">
+            <form id="usr_input" class="form-group" action="index.html" method="get">
+              <input type="number" class="form-control align-items-center" id="userIn" required placeholder="Enter A Text" name="" value="">
+              <button type="submit" name="submit" class="btn btn-primary" value="Submit">Submit</button>
             </form>
+            <div class="output">
+              <ul id="sys_output">
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>
