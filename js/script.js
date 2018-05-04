@@ -30,6 +30,4 @@ $(document).ready(function(){
     });
     event.preventDefault();
   });
-  $("p").click(function(){
-    $(".ihide").show();
 });
