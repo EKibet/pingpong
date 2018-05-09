@@ -33,5 +33,5 @@ JavaScript/jQuery for logic,
 ### License
 
 *MIT License*
-
+[MIT License](https://opensource.org/licenses/MIT)
 Copyright (c) 2018 **Edgar Kibet**
